@@ -48,7 +48,9 @@ a:visited,
   font-size: 18px;
   font-weight: 400;
 }
-
+.disabled {
+  cursor: not-allowed;
+}
 .header {
   margin: 0 auto;
   position: relative;
@@ -135,14 +137,13 @@ a:visited,
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: right;
 }
 .order:nth-last-of-type(odd) {
   width: 70%;
   display: flex;
   flex-wrap: wrap;
 }
-
 .fotoTwo {
   width: 221px;
   height: 221px;
@@ -161,11 +162,10 @@ a:visited,
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
-  text-align: right;
+  text-align: left;
 }
 .offer {
   background-color: #405d78;
-
   position: relative;
 }
 .containerOffer {
@@ -179,7 +179,6 @@ a:visited,
   font-size: 36px;
   color: var(--white);
 }
-
 .containerServices {
   display: flex;
   flex-wrap: wrap;
@@ -189,7 +188,6 @@ a:visited,
   align-items: center;
   padding-top: 81.67px;
 }
-
 .service {
   width: 198px;
   height: 193.78px;
