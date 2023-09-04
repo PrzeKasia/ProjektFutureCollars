@@ -128,22 +128,21 @@ a:visited,
   font-weight: 700;
   line-height: 21px;
   letter-spacing: 0em;
-  text-align: left;
   display: flex;
   align-items: center;
 }
-.description:nth-last-of-type(odd) {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: right;
-}
-.order:nth-last-of-type(odd) {
+.order {
   width: 70%;
   display: flex;
   flex-wrap: wrap;
 }
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
 .fotoTwo {
   width: 221px;
   height: 221px;
@@ -151,18 +150,11 @@ a:visited,
   background-image: url(osoba2.png);
   background-size: cover;
 }
-.order:nth-last-of-type(even) {
-  width: 70%;
-  display: flex;
-  flex-wrap: wrap;
+.specialist:nth-of-type(even) .order {
   justify-content: flex-end;
 }
-.description:nth-last-of-type(even) {
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: left;
+.specialist:nth-of-type(even) .description {
+  text-align: right;
 }
 .offer {
   background-color: #405d78;
